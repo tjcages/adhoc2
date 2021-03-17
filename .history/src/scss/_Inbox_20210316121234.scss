@@ -1,0 +1,76 @@
+.inbox-container {
+    background-color: $dark;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: $medium;
+    margin-bottom: $small;
+    border-radius: $spacer;
+    cursor: pointer;
+    transition: 0.1s ease-in-out; 
+
+    .inbox-image {
+        min-width: $xLarge;
+        height: $xLarge;
+        background-color: red;
+        border-radius: $xLarge;
+        margin-right: $small;
+    }
+
+    .inbox-content {
+        flex-grow: 1;
+        margin-right: $small;
+
+        .inbox-h4 {
+            color: $white;
+            margin-bottom: $spacer;
+        }
+
+        .inbox-h5 {
+            color: $white;
+            margin-bottom: $spacer;
+            opacity: 0.8;
+        }
+
+        .inbox-p {
+            color: $text-dark;
+        }
+
+        .selected {
+            color: $white;
+            opacity: 0.5;
+        }
+    }
+
+    .inbox-options {
+        border-radius: $massive;
+        padding: $spacer;
+        width: $large;
+        height: $large;
+        color: $text-dark;
+        position: relative;
+        top: -$small;
+        left: $small;
+        transition: 0.2s ease-in-out; 
+
+        .inbox-icon {
+            width: $medium;
+            height: $medium;
+        }
+    }
+
+    .inbox-options:hover {
+        background-color: $text-dark;
+        color: $white;
+    }
+
+    .selected {
+        color: $white;
+        opacity: 0.5;
+        background-color: rgba(0,0,0,0);
+    }
+}
+
+.selected {
+    background-color: $blue;
+}

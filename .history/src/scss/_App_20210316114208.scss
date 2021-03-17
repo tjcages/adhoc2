@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600');
+
+html {
+  margin: 0px;
+  padding: 0px;
+  background: $body-bg;
+}
+
+body {
+  font-family: 'Poppins';
+  margin: 0px; 
+  background: rgb( 18, 17, 20 );
+  color: rgb( 255, 255, 255 );
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  font-size: $text-header;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  font-size: $text-subheader;
+  font-weight: 500;
+}
+
+h3 {
+  margin: 0;
+  font-size: $text-large;
+  font-weight: 400;
+}
+
+h4 {
+  margin: 0;
+  font-size: $text-medium;
+  font-weight: 400;
+}
+
+h5 {
+  margin: 0;
+  font-size: $text-small;
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  font-size: $text-xSmall;
+  font-weight: 400;
+}
+

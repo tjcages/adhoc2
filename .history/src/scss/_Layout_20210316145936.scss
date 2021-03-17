@@ -1,0 +1,20 @@
+.layout_container {
+    display: flex;
+    width: 85vw;
+    flex-direction: row;
+    overflow: auto;
+
+    .layout-navigation {
+        padding-top: $medium;
+        width: 35vw;
+        flex-grow: 0.3;
+        z-index: 1;
+    }
+
+    .layout-browser {
+        background-color: orange;
+        padding-top: 36px;
+        width: 65vw;
+        flex-grow: 0.7;
+    }
+}
